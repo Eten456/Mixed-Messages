@@ -9,8 +9,6 @@ const songObject =  {
 //function to createRandomNumber
 const getRandomNum = (array) => {
     const randomNumber = Math.floor(Math.random() * array.length);
-    //console.log(randomNumber);
-    //console.log(array[randomNumber]);
     return randomNumber
 }
 
